@@ -3,6 +3,10 @@ import './App.css'
 import Props from './components/Props'
 import Button from './components/Button'
 import Input from './components/Input'
+import  LogedIn  from './components/state/LogedIn'
+import {User} from './components/state/User'
+import Practice from './components/Practice'
+import Hooks from './components/Hooks'
 function App() {
   
 
@@ -19,6 +23,10 @@ function App() {
 
 } />
 <Input value='' handleChange={(event => console.log(event))}/>
+<LogedIn />
+<User />
+<Practice />
+<Hooks/>
     </>
   )
   
